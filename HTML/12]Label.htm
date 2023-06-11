@@ -1,0 +1,143 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Label</title>
+ </head>
+ <body>
+    <header>
+     <p>Proper use of labels with the elements above will benefit
+         <ul>
+                <li>Screen reader users (will read out loud the label, when the user is focused on the element)</li>
+                <li>Users who have difficulty clicking on very small regions (such as checkboxes) - because when a user clicks the text within the <label> element, it toggles the input (this increases the hit area). </li>
+                <li>It is attribute of Form  tag</li>
+                <li>The "label tag" defines a label for many form elements. The "for" attribute of
+                    the label tag should be equal to the "id" attribute of the input element to
+                    bind them together.</li>
+         </ul>
+     </p>
+    </header>
+<br>
+<br>
+<hr>
+    <section>
+        <form action="">
+            <p>1] Size of Tshirt</p>
+
+            Small Size<input type="radio" ><br>
+            Medium Size<input type="radio" ><br>
+            large Size<input type="radio" >
+        </form>
+
+        <p>Here we are able select multiple radio buttons. </p>
+
+   </section>
+
+   <hr>
+   
+   <section>
+        <p>For avoiding multiple selction at a time we use same "name" attribute in input tag with same </p>
+        <form action="">
+           <p>2] Size of Tshirt</p>
+
+            Small Size<input type="radio"  name="Tshirt size"><br>
+            Medium Size<input type="radio" name="Tshirt size" ><br>
+            large Size<input type="radio"  name="Tshirt size" >
+        </form>
+
+        <p>here we are not able to select radio button by clicking on the text for that we have to use "Label" tag</p>
+
+    </section>
+
+    <hr>
+
+    <section>
+        <form action="">
+            <p>3]Size of Tshirt</p>
+
+            <label for="small1">Small Size</label>
+            <input id="small1" name="Tshirt size" type="radio"><br>
+
+            <label for="Medium1">Medium Size </label>
+            <input id="Medium1" name="Tshirt size" type="radio"><br>
+
+            <label for="Big1">Large Size</label>
+            <input id="Big1" name="Tshirt size" type="radio"><br>
+
+            <input type="submit" name="" id="">
+            
+        </form>
+        
+
+    </section>
+
+    <hr>
+
+    <section>
+        <p>For Name attribute there is value attribute also, va which is send to backend which u can see in link after clicking the submit button.</p>
+
+        <form action="">
+            <p>4]Size of Tshirt </p>
+
+            <label for="Small2">Small Size</label>
+            <input id="Small2" name="Tshirt Size" value="smaller" type="radio"><br>
+
+            <label for="Medium2 ">Medium Size</label>
+            <input id="Medium2 " name="Tshirt Size" value="Medium Sizer" type="radio"><br>
+
+            <label for="Big2">Large Size</label>
+            <input id="Big2" name="Tshirt Size" value="Bigger" type="radio"><br>
+
+            <input type="submit" name="" id="">
+
+
+        </form>
+    </section>
+ <hr>
+
+
+ <section>
+    <form action="">
+        <label for="gmail">Fill your gmail here</label>
+        <input type="email" id="gmail" name="Gmail" value="" placeholder="Put Gmail">
+        <input type="submit">
+
+        <p>Dont use value attribute here. it fill the box by value of value attribute</p>
+    </form>
+    
+ </section>
+
+<hr>
+
+ <section>
+    <p>We use select tag for choosing the option from drop down menue </p>
+    <label for="car">Choose the Car</label>
+    <select name="CarName" id="car" >
+        <option value=""disabled selected >Choose Car</option>
+        <option value="Audi">Audi</option>
+        <option value="Mercedese">Mercedese</option>
+        <option value="BMW">BMW</option>
+        <option value="Bentle">Bentle</option>
+    </select>
+    <p>Here we used "disabled selected " attribute for palce holder as we dont have any placeholder attribute for select tag</p>
+    
+<br> <br>
+
+    <label for="car">Choose the Car</label>
+    <select name="CarName" id="car" >
+        <option value=""disabled selected hidden >Choose Car</option>
+        <option value="Audi">Audi</option>
+        <option value="Mercedese">Mercedese</option>
+        <option value="BMW">BMW</option>
+        <option value="Bentle">Bentle</option>
+    </select>
+    <p>Here we used "disabled selected hidden" attribute for palce holder as we dont have any placeholder attribute for select tag</p>
+ </section>
+    
+
+
+
+
+ </body>
+ </html>
