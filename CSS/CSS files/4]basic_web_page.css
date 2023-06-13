@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    margin-right: 10px;
+    padding: 1px;
+}
+div{
+    display: inline;
+    
+}
+.navbar{
+    background-color: rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    width: 102%;
+    /* width: 1515px; */
+    
+   
+}
+.nav{
+    /* display: inline; */
+    
+}
+.nav1{
+    display: inline;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: red;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#logo{
+    padding-left: 10px;
+    margin-right: 200px;
+    color: #f08804;;
+}
+#account{
+    padding-left: 10px;
+    margin-right: 200px;
+}
+#contact{
+    padding-left: 10px;
+    margin-right: 200px;
+}
+#cart{
+    padding-left: 10px;
+    margin-right: 100px;
+}
+#button{
+   background-color: #f08804;
+   padding-right: 5px;
+}
+
+.contentbox{
+    height: 1000px;
+}
+#ig1{
+    width: 98.5vw ;
+}
+
+.content1{
+}
+.content2{
+    width: 98.3vw;
+    height: 400px;
+    border: solid black;
+}
+.content21{
+    display: inline;
+    position: relative;
+}
+#ig11{
+    
+    width: 325px;
+    border: solid black;
+    position: absolute;
+    left: 10px;
+}
+#ig12{
+    
+    width: 325px;
+    border: solid black;
+    position: absolute;
+    left: 260px;
+}
+#ig13{
+    
+    width: 325px;
+    border: solid black;
+    position: absolute;
+    left: 460px;
+}
+#ig14{
+    
+    /* width: 300px;
+    border: solid black;
+    position: absolute;
+    right: 20px; */
+}
+
+
