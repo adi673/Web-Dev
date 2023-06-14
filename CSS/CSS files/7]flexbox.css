@@ -1,0 +1,37 @@
+body{
+  text-align: center;
+}
+div{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black  ;
+    display: flex;
+    flex-direction: row;  /*row/row-reverse/column/column-reverese /*axis  for row and column value is start to end and for reverse value is end to start*/
+                        /* always all containers try to fit in main div container unill container size is not smaller than font size of texts inside box */
+}
+
+#bigBox{
+    width: 800px;
+    height: 200px;
+}
+
+#box1{
+    background-color: aqua;
+}
+
+#box2{
+    background-color:palevioletred;
+}
+
+#box3{
+   background-color:mediumseagreen;
+}
+
+
+#box4{
+    background-color:crimson;
+}
+
+#box5{
+    background-color:blueviolet;
+}
